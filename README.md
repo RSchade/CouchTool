@@ -3,7 +3,7 @@
 Allows easy uploading and downloading CouchDB design documents.
 
 ## Usage
-
+```
 usage: CouchTool [-h] --url url --project project folder [--force] [--pretend]
                  [--create-databases] [--language language]
                  (--upload | --download)
@@ -28,6 +28,7 @@ optional arguments:
   --download            Specifies to use the specific database targeted by the
                         URL, downloading its configuration into the project
                         folder
+```
 
 ## Installation
 
